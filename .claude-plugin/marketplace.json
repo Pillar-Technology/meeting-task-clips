@@ -1,0 +1,11 @@
+{
+  "name": "meeting-task-clips",
+  "owner": { "name": "Pillar Technology" },
+  "plugins": [
+    {
+      "name": "meeting-task-clips",
+      "source": "./",
+      "description": "Turn a Google Meet recording or transcript into a task-focused summary with video clips of each assignment."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: sample-planning-meeting
+expected_outcome: |
+  A MEETING_SUMMARY.md with a task table listing: Rina - redesign pricing page with three tiers (Friday 28), Dion - investigate email queue and provider comparison (Wednesday), Sari - demo script draft (Monday), plus the FAQ update flagged as unassigned/low confidence. Q&A includes "Do we keep the free plan?" answered yes but hidden from pricing page. Decision: demo shows only pricing page + onboarding fix.
+context:
+  scaffold_script: place-files.sh

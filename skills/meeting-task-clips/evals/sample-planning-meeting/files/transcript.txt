@@ -1,0 +1,34 @@
+Weekly Product Sync (2026-11-20 10:00 GMT+7) - Transcript
+Attendees
+Pak Budi, Rina, Dion, Sari
+Transcript
+00:00:00
+Pak Budi: Okay, let's start. Thanks everyone for joining. Today I want to cover the pricing page, the onboarding bug reports, and the investor demo next month.
+Dion: Sounds good, Pak.
+Pak Budi: First, pricing. We agreed with the board that we move to three tiers. Basic, Pro and Enterprise. The current page only shows one price and customers are confused.
+Rina: So we drop the single plan completely?
+Pak Budi: Yes. The single plan becomes Basic. Rina, can you redesign the pricing page with the three tiers? Use the new brand colours from the Figma file Sari shared last week, and show both monthly and yearly prices with the yearly discount.
+Rina: Okay. Do we keep the free plan?
+Pak Budi: Keep it, but don't show it on the pricing page. It stays on the signup flow only.
+Rina: Got it. When do you need it?
+Pak Budi: Friday the 28th, so we can review before the demo.
+Rina: Noted, Friday 28.
+00:05:00
+Pak Budi: Second thing, onboarding. Sari, how many bug reports did we get this week?
+Sari: Fourteen. Nine of them are the same issue, the verification email arrives late or not at all.
+Pak Budi: That's bad. Dion, I need you to look at the email queue this week. Find the root cause, and if it is the provider, get me a comparison of two alternatives with pricing.
+Dion: Okay. Can I pull Sari in for testing?
+Pak Budi: Yes, Sari helps with testing once the fix is ready.
+Sari: Sure.
+Dion: What's the deadline for the comparison?
+Pak Budi: Next Wednesday is fine, the fix itself as soon as possible.
+Dion: Understood.
+00:09:30
+Pak Budi: Last, the investor demo on December 5th. I decided we show the new pricing page and the fixed onboarding, nothing else. No new features.
+Sari: Should I prepare the demo script?
+Pak Budi: Yes please, Sari, a demo script with the two flows, send me a draft by Monday.
+Sari: Will do.
+Pak Budi: And someone needs to update the FAQ page for the new tiers, we'll figure out who later.
+Rina: I can look at that if I have time after the pricing page.
+Pak Budi: Let's see. Okay, that's everything. Thanks all.
+Dion: Thanks Pak.

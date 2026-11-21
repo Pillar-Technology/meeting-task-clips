@@ -1,0 +1,5 @@
+{
+  "name": "meeting-task-clips",
+  "description": "Turn a Google Meet recording or transcript into a task-focused summary with video clips of each assignment.",
+  "version": "1.0.0"
+}

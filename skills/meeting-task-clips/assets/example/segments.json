@@ -1,0 +1,191 @@
+[
+ {
+  "start": 0,
+  "end": 55.53,
+  "speaker": "Pak Budi",
+  "text": "Okay, let's start. Thanks everyone for joining. Today I want to cover the pricing page, the onboarding bug reports, and the investor demo next month.",
+  "id": 0
+ },
+ {
+  "start": 55.53,
+  "end": 61.86,
+  "speaker": "Dion",
+  "text": "Sounds good, Pak.",
+  "id": 1
+ },
+ {
+  "start": 61.86,
+  "end": 122.24,
+  "speaker": "Pak Budi",
+  "text": "First, pricing. We agreed with the board that we move to three tiers. Basic, Pro and Enterprise. The current page only shows one price and customers are confused.",
+  "id": 2
+ },
+ {
+  "start": 122.24,
+  "end": 136.4,
+  "speaker": "Rina",
+  "text": "So we drop the single plan completely?",
+  "id": 3
+ },
+ {
+  "start": 136.4,
+  "end": 222.86,
+  "speaker": "Pak Budi",
+  "text": "Yes. The single plan becomes Basic. Rina, can you redesign the pricing page with the three tiers? Use the new brand colours from the Figma file Sari shared last week, and show both monthly and yearly prices with the yearly discount.",
+  "id": 4
+ },
+ {
+  "start": 222.86,
+  "end": 234.41,
+  "speaker": "Rina",
+  "text": "Okay. Do we keep the free plan?",
+  "id": 5
+ },
+ {
+  "start": 234.41,
+  "end": 264.6,
+  "speaker": "Pak Budi",
+  "text": "Keep it, but don't show it on the pricing page. It stays on the signup flow only.",
+  "id": 6
+ },
+ {
+  "start": 264.6,
+  "end": 275.03,
+  "speaker": "Rina",
+  "text": "Got it. When do you need it?",
+  "id": 7
+ },
+ {
+  "start": 275.03,
+  "end": 293.66,
+  "speaker": "Pak Budi",
+  "text": "Friday the 28th, so we can review before the demo.",
+  "id": 8
+ },
+ {
+  "start": 293.66,
+  "end": 300,
+  "speaker": "Rina",
+  "text": "Noted, Friday 28.",
+  "id": 9
+ },
+ {
+  "start": 300,
+  "end": 337.21,
+  "speaker": "Pak Budi",
+  "text": "Second thing, onboarding. Sari, how many bug reports did we get this week?",
+  "id": 10
+ },
+ {
+  "start": 337.21,
+  "end": 383.97,
+  "speaker": "Sari",
+  "text": "Fourteen. Nine of them are the same issue, the verification email arrives late or not at all.",
+  "id": 11
+ },
+ {
+  "start": 383.97,
+  "end": 468.44,
+  "speaker": "Pak Budi",
+  "text": "That's bad. Dion, I need you to look at the email queue this week. Find the root cause, and if it is the provider, get me a comparison of two alternatives with pricing.",
+  "id": 12
+ },
+ {
+  "start": 468.44,
+  "end": 487.04,
+  "speaker": "Dion",
+  "text": "Okay. Can I pull Sari in for testing?",
+  "id": 13
+ },
+ {
+  "start": 487.04,
+  "end": 512.68,
+  "speaker": "Pak Budi",
+  "text": "Yes, Sari helps with testing once the fix is ready.",
+  "id": 14
+ },
+ {
+  "start": 512.68,
+  "end": 515.2,
+  "speaker": "Sari",
+  "text": "Sure.",
+  "id": 15
+ },
+ {
+  "start": 515.2,
+  "end": 534.8,
+  "speaker": "Dion",
+  "text": "What's the deadline for the comparison?",
+  "id": 16
+ },
+ {
+  "start": 534.8,
+  "end": 564.47,
+  "speaker": "Pak Budi",
+  "text": "Next Wednesday is fine, the fix itself as soon as possible.",
+  "id": 17
+ },
+ {
+  "start": 564.47,
+  "end": 570,
+  "speaker": "Dion",
+  "text": "Understood.",
+  "id": 18
+ },
+ {
+  "start": 570,
+  "end": 580.48,
+  "speaker": "Pak Budi",
+  "text": "Last, the investor demo on December 5th. I decided we show the new pricing page and the fixed onboarding, nothing else. No new features.",
+  "id": 19
+ },
+ {
+  "start": 580.48,
+  "end": 583.02,
+  "speaker": "Sari",
+  "text": "Should I prepare the demo script?",
+  "id": 20
+ },
+ {
+  "start": 583.02,
+  "end": 589.02,
+  "speaker": "Pak Budi",
+  "text": "Yes please, Sari, a demo script with the two flows, send me a draft by Monday.",
+  "id": 21
+ },
+ {
+  "start": 589.02,
+  "end": 589.64,
+  "speaker": "Sari",
+  "text": "Will do.",
+  "id": 22
+ },
+ {
+  "start": 589.64,
+  "end": 596.34,
+  "speaker": "Pak Budi",
+  "text": "And someone needs to update the FAQ page for the new tiers, we'll figure out who later.",
+  "id": 23
+ },
+ {
+  "start": 596.34,
+  "end": 600.73,
+  "speaker": "Rina",
+  "text": "I can look at that if I have time after the pricing page.",
+  "id": 24
+ },
+ {
+  "start": 600.73,
+  "end": 604.35,
+  "speaker": "Pak Budi",
+  "text": "Let's see. Okay, that's everything. Thanks all.",
+  "id": 25
+ },
+ {
+  "start": 604.35,
+  "end": 606.35,
+  "speaker": "Dion",
+  "text": "Thanks Pak.",
+  "id": 26
+ }
+]

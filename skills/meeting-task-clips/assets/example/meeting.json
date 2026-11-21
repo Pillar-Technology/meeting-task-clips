@@ -1,0 +1,310 @@
+{
+ "title": "Weekly Product Sync",
+ "date": "2026-11-20",
+ "language": "en",
+ "participants": [
+  {
+   "name": "Pak Budi",
+   "role": "boss"
+  },
+  {
+   "name": "Rina",
+   "role": "staff (designer, the user)"
+  },
+  {
+   "name": "Dion",
+   "role": "staff (engineering)"
+  },
+  {
+   "name": "Sari",
+   "role": "staff (support / demo)"
+  }
+ ],
+ "summary": "Pak Budi wants three things done before the investor demo on 5 December: a three-tier pricing page (Basic, Pro, Enterprise) with monthly and yearly prices, the late verification-email bug in onboarding fixed with a provider comparison if the provider is at fault, and a demo script covering those two flows. The demo will show nothing else. The FAQ update for the new tiers has no owner yet.",
+ "decisions": [
+  {
+   "text": "Investor demo on 5 Dec shows only the new pricing page and the fixed onboarding; no new features.",
+   "by": "Pak Budi",
+   "at": 570.0,
+   "start": 570.0,
+   "end": 580.5,
+   "clip": "13-decision-investor-demo-on-5-dec-shows-only-the-ne.mp4"
+  }
+ ],
+ "tasks": [
+  {
+   "id": 1,
+   "task": "Redesign the pricing page with three tiers (Basic, Pro, Enterprise)",
+   "assignee": "Rina",
+   "assigner": "Pak Budi",
+   "deadline": "Friday 28 Nov",
+   "what_is_needed": [
+    "Three tiers: Basic (the old single plan), Pro, Enterprise",
+    "Use the new brand colours from the Figma file Sari shared last week",
+    "Show monthly and yearly prices, with the yearly discount",
+    "Free plan is kept but NOT shown on the pricing page; it stays in the signup flow",
+    "Ready for review before the investor demo"
+   ],
+   "quote": "Rina, can you redesign the pricing page with the three tiers? Use the new brand colours from the Figma file Sari shared last week, and show both monthly and yearly prices with the yearly discount.",
+   "start": 61.9,
+   "end": 300.0,
+   "segment_ids": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "confidence": "high",
+   "confidence_note": "",
+   "clip": "01-task-redesign-the-pricing-page-with-three-tie.mp4"
+  },
+  {
+   "id": 2,
+   "task": "Investigate the verification-email queue issue and fix it; if the provider is the cause, prepare a comparison of two alternative providers with pricing",
+   "assignee": "Dion",
+   "assigner": "Pak Budi",
+   "deadline": "Fix: ASAP. Provider comparison: Wednesday 26 Nov",
+   "what_is_needed": [
+    "Find the root cause of late/missing verification emails (9 of 14 bug reports this week)",
+    "If the provider is at fault: compare two alternatives including pricing",
+    "Sari helps with testing once the fix is ready"
+   ],
+   "quote": "Dion, I need you to look at the email queue this week. Find the root cause, and if it is the provider, get me a comparison of two alternatives with pricing.",
+   "start": 384.0,
+   "end": 570.0,
+   "segment_ids": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ],
+   "confidence": "high",
+   "confidence_note": "",
+   "clip": "02-task-investigate-the-verification-email-queue.mp4"
+  },
+  {
+   "id": 3,
+   "task": "Test the verification-email fix once Dion has it ready",
+   "assignee": "Sari",
+   "assigner": "Pak Budi",
+   "deadline": "when the fix is ready",
+   "what_is_needed": [
+    "Testing support for Dion's fix"
+   ],
+   "quote": "Yes, Sari helps with testing once the fix is ready.",
+   "start": 468.4,
+   "end": 515.2,
+   "segment_ids": [
+    13,
+    14,
+    15
+   ],
+   "confidence": "high",
+   "confidence_note": "",
+   "clip": "03-task-test-the-verification-email-fix-once-dio.mp4"
+  },
+  {
+   "id": 4,
+   "task": "Write the investor demo script covering the pricing page and onboarding flows",
+   "assignee": "Sari",
+   "assigner": "Pak Budi",
+   "deadline": "Draft by Monday 24 Nov",
+   "what_is_needed": [
+    "Two flows only: new pricing page and fixed onboarding",
+    "Send draft to Pak Budi"
+   ],
+   "quote": "Yes please, Sari, a demo script with the two flows, send me a draft by Monday.",
+   "start": 580.5,
+   "end": 589.6,
+   "segment_ids": [
+    20,
+    21,
+    22
+   ],
+   "confidence": "high",
+   "confidence_note": "",
+   "clip": "04-task-write-the-investor-demo-script-covering.mp4"
+  },
+  {
+   "id": 5,
+   "task": "Update the FAQ page for the new pricing tiers",
+   "assignee": "unassigned (Rina offered, if time allows)",
+   "assigner": "Pak Budi",
+   "deadline": null,
+   "what_is_needed": [
+    "FAQ must reflect the three tiers"
+   ],
+   "quote": "And someone needs to update the FAQ page for the new tiers, we'll figure out who later.",
+   "start": 589.6,
+   "end": 604.4,
+   "segment_ids": [
+    23,
+    24,
+    25
+   ],
+   "confidence": "low",
+   "confidence_note": "Pak Budi said 'we'll figure out who later'; Rina offered conditionally and he replied 'let's see'. Confirm the owner.",
+   "clip": "05-task-update-the-faq-page-for-the-new-pricing.mp4"
+  }
+ ],
+ "qa": [
+  {
+   "question": "So we drop the single plan completely?",
+   "asked_by": "Rina",
+   "answer": "Yes, the single plan becomes Basic.",
+   "answered_by": "Pak Budi",
+   "at": 122.2,
+   "start": 122.2,
+   "end": 140.0,
+   "clip": "06-qa-so-we-drop-the-single-plan-completely.mp4"
+  },
+  {
+   "question": "Do we keep the free plan?",
+   "asked_by": "Rina",
+   "answer": "Keep it, but do not show it on the pricing page; it stays on the signup flow only.",
+   "answered_by": "Pak Budi",
+   "at": 222.9,
+   "start": 222.9,
+   "end": 264.6,
+   "clip": "07-qa-do-we-keep-the-free-plan.mp4"
+  },
+  {
+   "question": "When do you need the pricing page?",
+   "asked_by": "Rina",
+   "answer": "Friday the 28th, to review before the demo.",
+   "answered_by": "Pak Budi",
+   "at": 264.6,
+   "start": 264.6,
+   "end": 300.0,
+   "clip": "08-qa-when-do-you-need-the-pricing-page.mp4"
+  },
+  {
+   "question": "How many onboarding bug reports this week?",
+   "asked_by": "Pak Budi",
+   "answer": "Fourteen; nine are the same late/missing verification email issue.",
+   "answered_by": "Sari",
+   "at": 300.0,
+   "start": 300.0,
+   "end": 384.0,
+   "clip": "09-qa-how-many-onboarding-bug-reports-this-wee.mp4"
+  },
+  {
+   "question": "Can I pull Sari in for testing?",
+   "asked_by": "Dion",
+   "answer": "Yes, once the fix is ready.",
+   "answered_by": "Pak Budi",
+   "at": 468.4,
+   "start": 468.4,
+   "end": 515.2,
+   "clip": "10-qa-can-i-pull-sari-in-for-testing.mp4"
+  },
+  {
+   "question": "What is the deadline for the provider comparison?",
+   "asked_by": "Dion",
+   "answer": "Next Wednesday; the fix itself as soon as possible.",
+   "answered_by": "Pak Budi",
+   "at": 515.2,
+   "start": 515.2,
+   "end": 570.0,
+   "clip": "11-qa-what-is-the-deadline-for-the-provider-co.mp4"
+  },
+  {
+   "question": "Should I prepare the demo script?",
+   "asked_by": "Sari",
+   "answer": "Yes, two flows, draft by Monday.",
+   "answered_by": "Pak Budi",
+   "at": 580.5,
+   "start": 580.5,
+   "end": 589.6,
+   "clip": "12-qa-should-i-prepare-the-demo-script.mp4"
+  }
+ ],
+ "topics": [
+  {
+   "title": "Pricing page: move to three tiers",
+   "start": 61.9,
+   "end": 300.0,
+   "summary": "Board agreed on Basic/Pro/Enterprise; Rina redesigns the page by Friday 28.",
+   "exchanges": [
+    {
+     "speaker": "Pak Budi",
+     "at": 61.9,
+     "text": "Explained the board decision and why the current single-price page confuses customers; assigned the redesign to Rina with brand colours and monthly/yearly prices."
+    },
+    {
+     "speaker": "Rina",
+     "at": 122.2,
+     "text": "Asked whether the single plan is dropped (yes, becomes Basic), whether the free plan stays (yes, hidden), and the deadline (Friday 28)."
+    }
+   ],
+   "related_tasks": [
+    1
+   ]
+  },
+  {
+   "title": "Onboarding: verification email bug",
+   "start": 300.0,
+   "end": 570.0,
+   "summary": "14 bug reports, 9 about late/missing verification emails; Dion investigates, Sari tests.",
+   "exchanges": [
+    {
+     "speaker": "Pak Budi",
+     "at": 300.0,
+     "text": "Asked for the bug count; assigned Dion the root-cause investigation and a provider comparison."
+    },
+    {
+     "speaker": "Sari",
+     "at": 337.2,
+     "text": "Reported 14 bug reports, 9 the same email issue; agreed to help test."
+    },
+    {
+     "speaker": "Dion",
+     "at": 468.4,
+     "text": "Asked to involve Sari for testing and for the comparison deadline (Wednesday)."
+    }
+   ],
+   "related_tasks": [
+    2,
+    3
+   ]
+  },
+  {
+   "title": "Investor demo on 5 December",
+   "start": 570.0,
+   "end": 606.4,
+   "summary": "Demo shows only pricing page and onboarding fix; Sari drafts the script by Monday; FAQ owner undecided.",
+   "exchanges": [
+    {
+     "speaker": "Pak Budi",
+     "at": 570.0,
+     "text": "Decided the demo scope; asked Sari for a script draft; raised the FAQ update without naming an owner."
+    },
+    {
+     "speaker": "Sari",
+     "at": 580.5,
+     "text": "Offered to prepare the demo script; accepted the Monday deadline."
+    },
+    {
+     "speaker": "Rina",
+     "at": 596.3,
+     "text": "Offered to take the FAQ update if time allows after the pricing page."
+    }
+   ],
+   "related_tasks": [
+    4,
+    5
+   ]
+  }
+ ],
+ "open_points": [
+  "FAQ page update has no confirmed owner (Rina offered conditionally; Pak Budi said 'let's see').",
+  "Deadline for the email fix is only 'as soon as possible'; no date."
+ ]
+}

@@ -1,0 +1,63 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Weekly Product Sync</title><style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1c2330;--mut:#5d6878;--line:#e2e6ec;--acc:#1f6feb;--warn:#b25e00;--warnbg:#fff4e0}
+@media (prefers-color-scheme:dark){:root{--bg:#12151b;--card:#1b2029;--ink:#e8ecf2;--mut:#9aa6b6;--line:#2c3440;--acc:#6aa5ff;--warn:#ffc46b;--warnbg:#3a2c12}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}h1{font-size:1.7rem;margin:0 0 4px}h2{font-size:1.2rem;margin:36px 0 12px}
+h3{font-size:1.05rem;margin:0 0 8px}.meta{color:var(--mut);font-size:.92rem}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:12px 0}
+.who{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}.pill{border:1px solid var(--line);border-radius:999px;padding:2px 10px;font-size:.85rem;color:var(--mut)}
+.pill b{color:var(--ink)}.pill.due{border-color:var(--acc);color:var(--acc)}ul{margin:6px 0;padding-left:20px}
+blockquote{margin:10px 0;padding:6px 12px;border-left:3px solid var(--acc);color:var(--mut);font-style:italic}
+video,audio{width:100%;margin-top:10px;border-radius:8px;background:#000}audio{background:none}
+.warn{background:var(--warnbg);color:var(--warn);border-radius:8px;padding:6px 10px;font-size:.9rem;margin-top:8px}
+.q{font-weight:600}.a{margin:2px 0 0}.t{color:var(--mut);font-size:.85rem;font-variant-numeric:tabular-nums}
+table{width:100%;border-collapse:collapse;font-size:.92rem}td,th{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.wrap{overflow-x:auto}
+</style></head><body><main>
+<h1>Weekly Product Sync</h1>
+<div class='meta'>2026-11-20 · Pak Budi (boss), Rina (staff (designer, the user)), Dion (staff (engineering)), Sari (staff (support / demo))</div>
+<h2>What the bosses need</h2><div class='card'>Pak Budi wants three things done before the investor demo on 5 December: a three-tier pricing page (Basic, Pro, Enterprise) with monthly and yearly prices, the late verification-email bug in onboarding fixed with a provider comparison if the provider is at fault, and a demo script covering those two flows. The demo will show nothing else. The FAQ update for the new tiers has no owner yet.
+<h3 style='margin-top:14px'>Decisions</h3><ul><li>Investor demo on 5 Dec shows only the new pricing page and the fixed onboarding; no new features. <span class='t'>(Pak Budi, 00:09:30)</span></li></ul>
+</div>
+<h2>Tasks</h2>
+<div class='card wrap'><table><tr><th>#</th><th>Task</th><th>Who does it</th><th>Deadline</th></tr><tr><td>1</td><td>Redesign the pricing page with three tiers (Basic, Pro, Enterprise)</td><td>Rina</td><td>Friday 28 Nov</td></tr><tr><td>2</td><td>Investigate the verification-email queue issue and fix it; if the provider is the cause, prepare a comparison of two alternative providers with pricing</td><td>Dion</td><td>Fix: ASAP. Provider comparison: Wednesday 26 Nov</td></tr><tr><td>3</td><td>Test the verification-email fix once Dion has it ready</td><td>Sari</td><td>when the fix is ready</td></tr><tr><td>4</td><td>Write the investor demo script covering the pricing page and onboarding flows</td><td>Sari</td><td>Draft by Monday 24 Nov</td></tr><tr><td>5</td><td>Update the FAQ page for the new pricing tiers</td><td>unassigned (Rina offered, if time allows)</td><td>—</td></tr></table></div>
+<div class='card'><h3>1. Redesign the pricing page with three tiers (Basic, Pro, Enterprise)</h3><div class='who'><span class='pill'>Who does it: <b>Rina</b></span><span class='pill'>Asked by: <b>Pak Budi</b></span><span class='pill due'>Deadline: <b>Friday 28 Nov</b></span><span class='pill t'>00:01:02–00:05:00</span></div>
+<b>What is needed</b><ul><li>Three tiers: Basic (the old single plan), Pro, Enterprise</li><li>Use the new brand colours from the Figma file Sari shared last week</li><li>Show monthly and yearly prices, with the yearly discount</li><li>Free plan is kept but NOT shown on the pricing page; it stays in the signup flow</li><li>Ready for review before the investor demo</li></ul>
+<blockquote>“Rina, can you redesign the pricing page with the three tiers? Use the new brand colours from the Figma file Sari shared last week, and show both monthly and yearly prices with the yearly discount.”</blockquote>
+<video controls preload="metadata" src="clips/01-task-redesign-the-pricing-page-with-three-tie.mp4"></video></div>
+<div class='card'><h3>2. Investigate the verification-email queue issue and fix it; if the provider is the cause, prepare a comparison of two alternative providers with pricing</h3><div class='who'><span class='pill'>Who does it: <b>Dion</b></span><span class='pill'>Asked by: <b>Pak Budi</b></span><span class='pill due'>Deadline: <b>Fix: ASAP. Provider comparison: Wednesday 26 Nov</b></span><span class='pill t'>00:06:24–00:09:30</span></div>
+<b>What is needed</b><ul><li>Find the root cause of late/missing verification emails (9 of 14 bug reports this week)</li><li>If the provider is at fault: compare two alternatives including pricing</li><li>Sari helps with testing once the fix is ready</li></ul>
+<blockquote>“Dion, I need you to look at the email queue this week. Find the root cause, and if it is the provider, get me a comparison of two alternatives with pricing.”</blockquote>
+<video controls preload="metadata" src="clips/02-task-investigate-the-verification-email-queue.mp4"></video></div>
+<div class='card'><h3>3. Test the verification-email fix once Dion has it ready</h3><div class='who'><span class='pill'>Who does it: <b>Sari</b></span><span class='pill'>Asked by: <b>Pak Budi</b></span><span class='pill due'>Deadline: <b>when the fix is ready</b></span><span class='pill t'>00:07:48–00:08:35</span></div>
+<b>What is needed</b><ul><li>Testing support for Dion&#x27;s fix</li></ul>
+<blockquote>“Yes, Sari helps with testing once the fix is ready.”</blockquote>
+<video controls preload="metadata" src="clips/03-task-test-the-verification-email-fix-once-dio.mp4"></video></div>
+<div class='card'><h3>4. Write the investor demo script covering the pricing page and onboarding flows</h3><div class='who'><span class='pill'>Who does it: <b>Sari</b></span><span class='pill'>Asked by: <b>Pak Budi</b></span><span class='pill due'>Deadline: <b>Draft by Monday 24 Nov</b></span><span class='pill t'>00:09:40–00:09:50</span></div>
+<b>What is needed</b><ul><li>Two flows only: new pricing page and fixed onboarding</li><li>Send draft to Pak Budi</li></ul>
+<blockquote>“Yes please, Sari, a demo script with the two flows, send me a draft by Monday.”</blockquote>
+<video controls preload="metadata" src="clips/04-task-write-the-investor-demo-script-covering.mp4"></video></div>
+<div class='card'><h3>5. Update the FAQ page for the new pricing tiers</h3><div class='who'><span class='pill'>Who does it: <b>unassigned (Rina offered, if time allows)</b></span><span class='pill'>Asked by: <b>Pak Budi</b></span><span class='pill t'>00:09:50–00:10:04</span></div>
+<b>What is needed</b><ul><li>FAQ must reflect the three tiers</li></ul>
+<blockquote>“And someone needs to update the FAQ page for the new tiers, we&#x27;ll figure out who later.”</blockquote>
+<div class='warn'>Please confirm: Pak Budi said &#x27;we&#x27;ll figure out who later&#x27;; Rina offered conditionally and he replied &#x27;let&#x27;s see&#x27;. Confirm the owner.</div>
+<video controls preload="metadata" src="clips/05-task-update-the-faq-page-for-the-new-pricing.mp4"></video></div>
+<h2>Questions and answers</h2>
+<div class='card'><div class='q'>So we drop the single plan completely? <span class='t'>— Rina, 00:02:02</span></div><p class='a'>Yes, the single plan becomes Basic. <span class='t'>— Pak Budi</span></p><video controls preload="metadata" src="clips/06-qa-so-we-drop-the-single-plan-completely.mp4"></video></div>
+<div class='card'><div class='q'>Do we keep the free plan? <span class='t'>— Rina, 00:03:43</span></div><p class='a'>Keep it, but do not show it on the pricing page; it stays on the signup flow only. <span class='t'>— Pak Budi</span></p><video controls preload="metadata" src="clips/07-qa-do-we-keep-the-free-plan.mp4"></video></div>
+<div class='card'><div class='q'>When do you need the pricing page? <span class='t'>— Rina, 00:04:25</span></div><p class='a'>Friday the 28th, to review before the demo. <span class='t'>— Pak Budi</span></p><video controls preload="metadata" src="clips/08-qa-when-do-you-need-the-pricing-page.mp4"></video></div>
+<div class='card'><div class='q'>How many onboarding bug reports this week? <span class='t'>— Pak Budi, 00:05:00</span></div><p class='a'>Fourteen; nine are the same late/missing verification email issue. <span class='t'>— Sari</span></p><video controls preload="metadata" src="clips/09-qa-how-many-onboarding-bug-reports-this-wee.mp4"></video></div>
+<div class='card'><div class='q'>Can I pull Sari in for testing? <span class='t'>— Dion, 00:07:48</span></div><p class='a'>Yes, once the fix is ready. <span class='t'>— Pak Budi</span></p><video controls preload="metadata" src="clips/10-qa-can-i-pull-sari-in-for-testing.mp4"></video></div>
+<div class='card'><div class='q'>What is the deadline for the provider comparison? <span class='t'>— Dion, 00:08:35</span></div><p class='a'>Next Wednesday; the fix itself as soon as possible. <span class='t'>— Pak Budi</span></p><video controls preload="metadata" src="clips/11-qa-what-is-the-deadline-for-the-provider-co.mp4"></video></div>
+<div class='card'><div class='q'>Should I prepare the demo script? <span class='t'>— Sari, 00:09:40</span></div><p class='a'>Yes, two flows, draft by Monday. <span class='t'>— Pak Budi</span></p><video controls preload="metadata" src="clips/12-qa-should-i-prepare-the-demo-script.mp4"></video></div>
+<h2>Topics, in order</h2>
+<div class='card'><h3>Pricing page: move to three tiers <span class='t'>00:01:02–00:05:00</span></h3>Board agreed on Basic/Pro/Enterprise; Rina redesigns the page by Friday 28.
+<ul><li><b>Pak Budi</b> <span class='t'>00:01:02</span> Explained the board decision and why the current single-price page confuses customers; assigned the redesign to Rina with brand colours and monthly/yearly prices.</li><li><b>Rina</b> <span class='t'>00:02:02</span> Asked whether the single plan is dropped (yes, becomes Basic), whether the free plan stays (yes, hidden), and the deadline (Friday 28).</li></ul>
+</div>
+<div class='card'><h3>Onboarding: verification email bug <span class='t'>00:05:00–00:09:30</span></h3>14 bug reports, 9 about late/missing verification emails; Dion investigates, Sari tests.
+<ul><li><b>Pak Budi</b> <span class='t'>00:05:00</span> Asked for the bug count; assigned Dion the root-cause investigation and a provider comparison.</li><li><b>Sari</b> <span class='t'>00:05:37</span> Reported 14 bug reports, 9 the same email issue; agreed to help test.</li><li><b>Dion</b> <span class='t'>00:07:48</span> Asked to involve Sari for testing and for the comparison deadline (Wednesday).</li></ul>
+</div>
+<div class='card'><h3>Investor demo on 5 December <span class='t'>00:09:30–00:10:06</span></h3>Demo shows only pricing page and onboarding fix; Sari drafts the script by Monday; FAQ owner undecided.
+<ul><li><b>Pak Budi</b> <span class='t'>00:09:30</span> Decided the demo scope; asked Sari for a script draft; raised the FAQ update without naming an owner.</li><li><b>Sari</b> <span class='t'>00:09:40</span> Offered to prepare the demo script; accepted the Monday deadline.</li><li><b>Rina</b> <span class='t'>00:09:56</span> Offered to take the FAQ update if time allows after the pricing page.</li></ul>
+</div>
+<h2>Unclear points to confirm</h2><div class='card'><ul><li>FAQ page update has no confirmed owner (Rina offered conditionally; Pak Budi said &#x27;let&#x27;s see&#x27;).</li><li>Deadline for the email fix is only &#x27;as soon as possible&#x27;; no date.</li></ul></div>
+</main></body></html>
